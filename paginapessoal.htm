@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html> <!-- tag raiz, todo documento html deverá ter essa tag -->
+  <head>
+    <meta charset="UTF-8">
+    <title> Lucas Almeida </title> <!-- Titulo na aba do navegador, fica within head -->
+    <link rel="stylesheet" href="styles.css"> <!-- style file -->
+    <script src="https://kit.fontawesome.com/e1f876aa68.js" crossorigin="anonymous"></script>
+    <style>
+      .red {
+        color: #ff1744;
+      }
+      .blue{
+        color: blue;
+      }
+      .light-blue{
+        color: #005CA3;
+      }
+      .paper-pink{
+        color: (--paper-pink-a400);
+      }
+      .horizontal-center{
+        text-align:center;
+      }
+      .background{
+        height: 190px;
+        background-color: black;
+      }
+      .about-me{
+        display:flex;
+        align-items: center;
+        justify-content: flex-start; /*fica um do lado do outro*/
+      }
+      body{
+        margin: 0px;
+      }
+      h2{
+        padding-left:50px;
+      }
+      a{
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+
+  <body>
+
+    <div class="background">
+      <img class="center" src="Images/Lucas Almeida.png" id="topo">
+    </div>
+    <div class="about-me">
+
+      <div>
+        <h2> Quem é? </h2>
+        <img src="Images/Lucas.jpg" alt="Foto de perfil" style="width:217px;height:290px;">
+      </div>
+
+      <div span style="padding-left:20px">
+        <p> Lucas Almeida é estudante de <span style="color: var(--paper-red-a200)">Bacharelado em Sistemas de Informações</span> </p>
+        <p> na <span style="color: var(--paper-light-blue-a400)"> Universidade Tecnológica Federal do Paraná.</span> Iniciou seus estudos em 2019.</p>
+        <p> Com grande vontade de aprender novas tecnologias e ferramentas em alta do mercado,</p> <!-- <span style="color: var(--paper-light-blue-100);" > </span>-->
+        <p> procura estágio em um lugar que possibilite-o desenvolver como profissional,</p>
+        <p> obtendo experiência na área e agregando a empresa ao máximo. </p>
+      </div>
+      
+    </div>
+  <div>
+      <h2> Habilidades </h2>
+      <ul> 
+        <li>C e C++ intermediários (1 ano e 8 meses de experiência com projetos acadêmicos)</li>
+        <li>Montagem e manutenção de computadores intermediária</li>
+        <li>Programação orientada a objetos</li>
+        <li>Conhecimento em hardware</li>
+        <li>Python básico</li>
+        <li>HTML E CSS básico</li>
+        <li>Git básico</li>
+        <li>Linux básico</li>
+      </ul>
+    </div>
+    <div>
+      <h2> Links importantes </h2>
+      <a href="https://www.linkedin.com/in/lucas-andre-almeida/"><img src="Images/lkdin.png" title="linkedin logo" alt="linkedin" style="width:20px;height:20px;"> </a><!-- se eu quiser achar a imagem 1 nivel acima, só coloar ../localizacao -->
+      <a href="https://www.linkedin.com/in/lucas-andre-almeida/"><strong>Linkedin</strong></a><br>
+      <a href="https://github.com/lucasandre22"><img src="Images/github.png" title="github" alt="github image" style="width:20px;height:20px;"></a> <!-- lembrar sempre de redimensionar as imagens do tamanho certo a ser usado!-->
+      <a href="https://github.com/lucasandre22"><strong>Github</strong></a><br>
+    </div>
+    <div>
+      <h2> Contato </h2>
+      <p> E-mail: lucas.andre22@yahoo.com </p>
+      <p> Celular: (41) 99766-1029 </p>
+      <p> Rua Travessa Y 45 </p>
+    </div>
+    <hr>
+    <footer>
+      <div>
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:lucas.andre22@yahoo.com"> Mande-me um email </a>
+      </div>
+      
+      <div>
+        <i class="fas fa-book"></i>
+        <a href="paginaestudos.html"> Pagina de estudos </a>
+      </div>
+
+      <div>
+        <i class="fas fa-arrow-up"></i>
+        <a href="#topo"> Voltar ao topo </a>
+      </div>
+      
+      
+      <p> Site desenvolvido para a aplicação de conhecimentos de HTML5 e CSS3 desenvolvidos em cursos online. </p>
+    </footer>
+  </body>
+</html>
+
+<!-- comentarios -->
